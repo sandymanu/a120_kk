@@ -1,9 +1,8 @@
-Wiko Rainbow & Explay Fresh 
+Wiko Rainbow
 ===========================
 
-kernel:
+Make changes in mbldenv.sh for environment & cd to root of source 
 
-cd tinno82_S5501
 ./mk -o=TARGET_BUILD_VARIANT=user n k
 
 Then, to create the boot.img:
